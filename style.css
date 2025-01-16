@@ -393,3 +393,70 @@ p {
     opacity: 1; /* Fully opaque */
     height: 100px;
 }
+
+
+
+/* MOBILE ADAPT */
+
+@media (max-width: 900px) {
+.explanation_container .explanation_header .error_item  {
+    width: 300px;
+}
+
+.explanation_item {
+    width: 300px;
+}
+}
+
+
+@media (max-width: 800px) {
+
+
+    .error_container {
+        flex-direction: column; /* Align items vertically */
+        align-items: center; /* Center items horizontally */
+        justify-content: center; /* Center items vertically */
+    }
+
+    .error_list {
+        display: none
+    }
+
+    .explanation_container .explanation_header .error_item  {
+        width: 400px;
+    }
+
+    .explanation_item {
+        width: 400px;
+    }
+
+
+
+  }
+
+  @media (max-width: 400px) {
+    .explanation_container .explanation_header .error_item  {
+        width: 300px;
+    }
+
+    .explanation_item {
+        width: 300px;
+    }
+}
+
+  @media (max-width: 400px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    textarea {
+        min-height: 200px;
+    }
+
+    .result_container {
+        margin-top: 0
+    }
+
+
+  }
